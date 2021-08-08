@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:myfisrtapp/Login.dart';
 import 'home_screen.dart';
 
 void main() {
@@ -16,7 +17,8 @@ class MyApp extends StatelessWidget
   {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home:HomeScreen(),
+      //home:HomeScreen(),
+      home:LoginScreen(),
       title:"First App"
     );
   }
