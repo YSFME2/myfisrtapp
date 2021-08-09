@@ -2,6 +2,8 @@ import 'dart:ui';
 
 import 'package:flutter/material.dart';
 
+import 'Chat.dart';
+
 class LoginScreen extends StatelessWidget {
   var emailController = TextEditingController();
   var passwordController = TextEditingController();
@@ -86,6 +88,11 @@ class LoginScreen extends StatelessWidget {
                               ),
                               onPressed: (){
                                 print("\n email: ${emailController.text}\n password: ${passwordController.text}");
+                                Navigator.push(
+                                    context,
+                                    MaterialPageRoute(
+                                      builder: (context) => Messenger(),
+                                    ));
                               },
                               child: Text(
                                 "Login",
