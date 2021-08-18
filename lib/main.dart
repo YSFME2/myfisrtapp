@@ -19,8 +19,8 @@ class MyApp extends StatelessWidget
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       //home:HomeScreen(),
-      home:LoginScreen(),
-      //home:Messenger(),
+      //home:LoginScreen(),
+      home:Messenger(),
       title:"First App"
     );
   }
