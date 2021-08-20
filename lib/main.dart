@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:myfisrtapp/Chat.dart';
+import 'package:myfisrtapp/CounterScreen.dart';
 import 'package:myfisrtapp/Login.dart';
 import 'home_screen.dart';
 
@@ -20,7 +21,8 @@ class MyApp extends StatelessWidget
       debugShowCheckedModeBanner: false,
       //home:HomeScreen(),
       //home:LoginScreen(),
-      home:Messenger(),
+      //home:Messenger(),
+      home:CounterScreen(),
       title:"First App"
     );
   }
